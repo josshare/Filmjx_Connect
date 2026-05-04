@@ -44,6 +44,19 @@ migrate_working_dir/
 .env.*
 !.env.example
 
+# Firebase CLI / FlutterFire (project id is local; use .firebaserc.example)
+.firebaserc
+
+# Firebase client configs (contienen API keys / ids de app; no subir a repos públicos)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+
+# Android / Gradle artefactos locales
+android/build/
+android/.gradle/
+
 # Symbolication related
 app.*.symbols
 
